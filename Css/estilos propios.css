@@ -1,3 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
 h1{
     color:purple ;
 }
@@ -22,4 +52,23 @@ h3
 {
     font-size: 25px;
     font-family: cursive;
+}
+
+#fondoCabeza
+{
+    width: 100%;
+    height: 400px;
+    background-color: #AAB7BF;
+
+}
+#cajaLogo
+{
+    padding-top: 100px;
+
+}
+#textoLogo
+{
+    color: ;
+    font-size: ;
+
 }
