@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+h1{
+    color:purple ;
+}
+#logo
+{
+    width: 500px;
+}
+#estudiantes
+{
+    width: 500px;
+    border: 3px solid blue;
+}
+h1 ~ p
+{
+    color: red;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h3
+{
+    font-size: 25px;
+    font-family: cursive;
+}
+
+#fondoCabeza
+{
+    width: 100%;
+    height: 450px;
+    background-color: #AAB7BF;
+
+}
+#cajaLogo
+{
+    padding-top: 100px;
+
+}
+#textoLogo
+{
+    color: rgb(2, 2, 61);
+    font-size: 40px ;
+
+}
+#menuPpal {
+    background-color: #CEE4F2 ;
+    padding: 7px;
+    box-shadow: 5px 5px 15px 5px black;
+}
+#menuPpal li{
+ 
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+
+}
+#menuPpal a {
+    text-decoration: none;
+    color: #878A8C;
+}
