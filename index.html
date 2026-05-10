@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-    h1{
-        color:red;
+<style>
+    h1 {
+        color: red;
         font-size: 80px;
     }
 </style>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=
@@ -13,177 +14,264 @@
     <title>Mentorias Academicas</title>
     <link rel="stylesheet" href="Css/estilos propios.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
 
 </head>
 
 
 <body>
-<header>
-    
+    <header>
 
 
 
-    <div id="fondoCabeza"><!--caja padre-->
-    <center>
-    <div id="cajaLogo"><!--caja hijo-->
 
-       <img src="Imagenes/mentorias sin fondo.png" width="400" alt="">
+        <div id="fondoCabeza"><!--caja padre-->
+            <center>
+                <div id="cajaLogo"><!--caja hijo-->
+
+                    <img src="Imagenes/mentorias sin fondo.png" width="400" alt="">
+
+                </div>
+                <div id="textoLogo" class=".pt-serif-regular">
+                    Mentory Master
+                </div>
+
+
+            </center>
+
+
+
+
+        </div>
+        <nav id="menuPpal">
+            <ul>
+
+                <li><a href="#">contacto</a></li>
+                <li><a href="#">imagenes</a></li>
+                <li><a href="#">videos</a></li>
+                <li><a href="#">zonas</a></li>
+
+
+            </ul>
+        </nav>
+
+
+
+    </header>
+    <main>
+        <!--seccion-->
+        <section id="seccion1">
+
+            <div id="contVideo">
+                
+                <center>
+                    
+                <video src="video/Acompañamiento académico_ mentorías(360P).mp4" id="videoPpal" controls></video>
+                
+                </center>
+
+            </div>
+            <div id="textoPpal">
+                <h1>
+                    <center>Mentorias Academicas</center>
+                </h1>
+                <p><b>Nuestro servicio</b></p>
+
+
+
+                <p>Nuestro servicio de mentorías académicas es una herramienta clave para fortalecer el aprendizaje y el
+                    desarrollo personal de los estudiantes. A través de la orientación de mentores con experiencia, se
+                    brinda apoyo en la comprensión de temas, la organización del estudio y el logro de objetivos
+                    académicos. Este tipo de servicio no solo mejora el rendimiento escolar, sino que también fomenta
+                    habilidades como la disciplina, la confianza y el pensamiento crítico, contribuyendo a una formación
+                    más integral.</p>
+
+                
+
+            </div>
+        </section>    
+
+            <!--seccion-->
+            <section id="seccion2">
+
+            <div class="serv">
+                <img src="Imagenes/imagen 1.jfif" id="logo" class="mentorias">
+            </div>
+            <div class="serv">
+                <img src="Imagenes/Mentorias estudiantiles.jpg" id="estudiantes">
+            </div>
+            <div class="serv">
+                <img src="Imagenes/Mentorias 2.jpg" id="mentorias2">
+            </div>
+
+        </section>
+        <br>
+
+        <!--seccion-->
+            
+
+        <section id="seccion3">
+        <div id="seccion3a">
+        <div id="contenedor formulario"></div>
+
+        <form action="" method="">
+
+        <label>Nombre</label>
+        <input type="text" name="nombre1" id="nombre1">
+        <br>
+
+        <label for="identificacion1">Identificacion:</label>
+        <input type="number" name="identificacion1" id="identificacion1">
+
+        <br>
+        <label for="correo electronico">Correo Electronico</label>
+        <input type="email">
+
+        <br>
+        <label for="">Contraseña:</label>
+        <input type="password">
+
+        <br>
+        <label for="">Genero:</label>
+        <br>
+        Masculino
+        <input type="radio" name="Genero" id="Masculino1" value="1">
+        Femenino
+        <input type="radio" name="Genero" id="Femenino1" value="2">
+        Otro
+        <input type="radio" name="Genero" id="Otro1" value="3">
+        <br>
+        <br><br>
+
+        <label>Aspiraciones para su el curso</label>
+        <br>
+        
+        <textarea name="textoautos" id="textoautos" rows="10" cols="40"></textarea>
+        <br>
+        <br>
+        <label for="">Pais</label>
+        <select name="paisReside" id="paisReside">
+            <option value="0">-- SELECCIONE --</option>
+            <option value="">Colombia</option>
+            <option value="">Venezuela</option>
+            <option value="">Peru</option>
+            <br>
+        <input type="submit" value="Guardar Datos">
+        </div>
+
+        
+     <div id="seccion3b">
+        </select>
+           <div id="contenedor tabla"></div>
+             <table border="1" width="800px">
+
+        <caption><h1><b>CURSOS</b></h1></caption>
+
+        <thead>
+
+            <tr>
+                <th>Curso</th>
+                <th>Profesor</th>
+                <th>Horario</th>
+                <th>Nivel</th>
+            </tr>
+            <tr>
+                <td>Ingles</td>
+                <td>Arturo Correa</td>
+                <td>6-7 pm</td>
+                <td>Basico</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Matematicas</td>
+                <td>Claudia Ossa</td>
+                <td>7-8 am</td>
+                <td>Intensivo</td>
+            </tr>
+            <tr>
+
+                <td>Fisica</td>
+                <td>Juan Gomez</td>
+                <td>2-3 pm</td>
+                <td>Basico</td>
+            </tr>
+             
+       
+        
+     
+        </tbody>
+        
+         
+    </table>
+     </main>
+    </form>
+     </div>
+     </section>
+    <br>
+      <br>
+      <br>
+    <footer id="footer">
+       <div id="contUbic">
+        <thead>
+            <tr><td><b>Atencion al ciudadano</b><p>Medellín Área Comercial: (60)(4) 2291100
+Medellín Área Administrativa: (60)(4) 4808822
+Bogotá: (60)(1) 4823318
+comunicaciones@cesde.edu.co
+Buzón exclusivo para notificaciones Judiciales y de autoridades administrativas (entidades públicas): juridica@cesde.edu.co</p></td></tr>
+
+<tr><td><b>sedes</b><p>
+Medellín: Calle 49 41 - 9.
+Bello: Diagonal 50a #38-20 (Tierragro), piso 5.
+Rionegro: Calle 52 #48-51
+Apartadó: Calle 104 #101-15 Barrio Vélez
+Bogotá: AK 14 63-09.
+Cartagena: Transversal 54 #21A 104 Local 102</p></td></tr>
+
+
+</thead>
+   
+
+     </div>
+        <div id="contRedes">
+            <a href="https://www.instagram.com">
+                <img src="iconos/instagram.ico" alt="instagram">
+            </a>
+            <a href="https://www.faceboock.com">
+                <img src="iconos/faceboock.ico" alt="faceboock">
+            </a>
+            <a href="https://www.x.com">
+                <img src="iconos/x.ico" alt="x">
+            </a>
+
+          
+          
+          
+        </div>
+        <br>
+        
+
+    <div id="contAudi">
+        <h3>Mentoring</h3>
+
+    <audio src="audios/WhatsApp Audio 2026-03-29 at 2.53.07 PM.mp4" controls></audio>
+   
 
     </div>
-    <div id="textoLogo" class=".pt-serif-regular">
-        Mentory Master
-    </div>
-
-
-    </center>
 
 
 
 
-    </div>
-    <nav id="menuPpal">
-        <ul>
-            
-            <li><a href="#">contacto</a></li>
-            <li><a href="#">imagenes</a></li>
-            <li><a href="#">videos</a></li>
-            <li><a href="#">zonas</a></li>
-            
-            
-        </ul> 
-    </nav>
 
+    </footer>
 
-
-</header>
- <h1><center>Mentorias Academicas</center></h1>
- <br>
-    <img src="Imagenes/imagen 1.jfif" id="logo">
-
-
-    <hr>
-
-
-
-<p><b>Nuestro servicio</b></p>
-
-
-
-<p>Nuestro servicio de mentorías académicas es una herramienta clave para fortalecer el aprendizaje y el desarrollo personal de los estudiantes. A través de la orientación de mentores con experiencia, se brinda apoyo en la comprensión de temas, la organización del estudio y el logro de objetivos académicos. Este tipo de servicio no solo mejora el rendimiento escolar, sino que también fomenta habilidades como la disciplina, la confianza y el pensamiento crítico, contribuyendo a una formación más integral.</p>
-
-<img src="Imagenes/estudiantes.jfif" id="estudiantes">
-<hr>
-<br>
-<section>
-<h1 style="color:green;">Video de mentorias academicas</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quae, sit quaerat neque delectus reprehenderit aliquid ratione ex, aut eius, mollitia repudiandae! Recusandae nobis dignissimos at explicabo quasi facilis asperiores.</p>
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum neque iure, repudiandae perferendis aliquid earum vel dolor esse architecto dolorum officia at quo id in tempore ipsum vero nihil illo?</p>
-
-<h3>Estilos</h3>
-
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, harum ipsum architecto omnis et repellat esse animi error rerum fuga cupiditate! Assumenda ipsum qui exercitationem voluptatum, facilis cupiditate dicta voluptas.</p>
-
-</section>
-<video src="video/Acompañamiento académico_ mentorías(360P).mp4" controls></video>
-
-<h3>Mentoring</h3>
-
-<audio src="audios/WhatsApp Audio 2026-03-29 at 2.53.07 PM.mp4" controls></audio>
-
-<table border="1" width="500">
-
-     <caption><b>Cursos</b></caption>
     
-    <thead>
-    
-        <tr>
-            <th>Curso</th>
-            <th>Profesor</th>
-            <th>Horario</th>
-            <th>Nivel</th>
-        </tr>
-        <tr>
-            <td>Ingles</td>
-            <td>Arturo Correa</td>
-            <td>6-7 pm</td>
-            <td>Basico</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Matematicas</td>
-            <td>Claudia Ossa</td>
-            <td>7-8 am</td>
-            <td>Intensivo</td>
-        </tr>
-        <tr>
-            
-            <td>Fisica</td>
-            <td>Juan Gomez</td>
-            <td>2-3 pm</td>
-            <td>Basico</td>
-        </tr>
-    </tbody>
-</table>
-
- <br>
-
-<form action="" method="">
-
-<label>Nombre</label>
-<input type="text" name="nombre1" id="nombre1">
-<br>
-
-<label for="identificacion1">Identificacion:</label>
-<input type="number" name="identificacion1" id="identificacion1">
-
-<br>
-<label for="correo electronico">Correo Electronico</label>
-<input type="email">
-
-<br>
-<label for="">Contraseña:</label>
-<input type="password">
-
-<br>
-<label for="">Genero:</label>
-<br>
-Masculino
-<input type="radio" name="Genero" id="Masculino1" value="1">
-Femenino
-<input type="radio" name="Genero" id="Femenino1" value="2">
-Otro
-<input type="radio" name="Genero" id="Otro1" value="3">
-<br>
-<br><br>
-
-<label>Aspiraciones para su el curso</label>
-<br>
-<textarea name="textoautos" id="textoautos" rows="10" cols="40"></textarea>
-<br>
-<br>
-<label for="">Pais</label>
-<select name="paisReside" id="paisReside">
-    <option value="0">-- SELECCIONE --</option>
-    <option value="">Colombia</option>
-    <option value="">Venezuela</option>
-    <option value="">Peru</option>
-
-</select>
-<br>
-<input type="submit" value="Guardar Datos">
-<br>
-
-
-
-
-</form>
 
 
 
 
 </body>
+
 </html>

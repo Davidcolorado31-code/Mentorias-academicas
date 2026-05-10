@@ -1,3 +1,6 @@
+body{
+    background-color:#CEE4F2 ;
+}
 *{
     padding: 0%;
     margin: 0%;
@@ -13,7 +16,7 @@
 
 
 h1{
-    color:purple ;
+    color:black ;
 }
 #logo
 {
@@ -22,13 +25,14 @@ h1{
 #estudiantes
 {
     width: 500px;
-    border: 3px solid blue;
+    height: 300px;
 }
 h1 ~ p
 {
-    color: red;
-    font-weight: bold;
+    color:rgb(116, 116, 156);
+    font-weight:bold;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 
 }
 
@@ -70,5 +74,81 @@ h3
 }
 #menuPpal a {
     text-decoration: none;
-    color: #878A8C;
+    color: black;
+}
+#seccion1{
+    text-align: center;
+    display:flex;
+    justify-content: space-evenly;
+
+
+}
+#contvideo{
+    width: 50%;
+}
+
+#textoPpal{
+
+    color: black;
+    width: 50%;
+
+}
+
+#videoPpal{
+
+    width: 100%;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 5px 15px 5px gray;
+    
+
+}
+
+#seccion2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+}
+.ser{
+
+    margin: 20px;
+
+}
+#mentorias2{
+    width: 500px;
+    height: 300px;
+}
+#mentorias{
+    width: 500px;
+    height: 300px;
+}
+#seccion3{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    
+}
+#seccion3a{
+    width: 50%;
+}
+#seccion3b{
+    width: 50%;
+}
+#footer{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+#contUbic{
+    width: 35%;
+
+}
+#contRedes{
+    width: 35%;
+}
+#contAudio{
+    width: 35%;
 }
